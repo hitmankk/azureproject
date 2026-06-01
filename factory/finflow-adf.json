@@ -1,0 +1,15 @@
+{
+	"name": "finflow-adf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c053b898-d742-4068-9455-718d1fe84b9b",
+		"tenantId": "196e8da2-ebc8-46cb-908d-d4fd4760914f"
+	}
+}
