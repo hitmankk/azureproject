@@ -210,7 +210,7 @@
 									"type": "JsonSource",
 									"additionalColumns": {
 										"type": "Expression",
-										"value": "@activity('max_cdc').output.resultSets[0].row[0].cdc"
+										"value": "@activity('max_cdc').output.resultSets[0].rows[0].cdc"
 									},
 									"storeSettings": {
 										"type": "AzureBlobFSReadSettings",
